@@ -1,0 +1,32 @@
+Node Js with express Framework
+
+step1
+
+creat folder name
+
+mkdir hnin-ei-phyu
+
+--------
+
+step2
+go to Vs code by adding this comment
+
+code .
+
+--------
+
+step3
+
+npm intialize by adding
+
+npm init
+
+----------
+
+step 4
+
+npm install (package name)
+
+-------------
+
+
