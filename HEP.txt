@@ -30,3 +30,30 @@ npm install (package name)
 -------------
 
 
+Create server on GitHub
+
+ write this as comments 
+
+ 1 git init
+
+ 2 git status . 
+
+ 3 git add .<file name >
+
+ 4 git commit -m "description" 
+
+ 5 git remote add origin "git-hub repository link" (ONLY FOR FIRST TIME)
+
+ 6 git branch
+
+ 7 git push origin <branch name>
+
+-------------------
+
+If you want to copy or get file on Github
+
+Run this on terminal
+
+ git clone
+
+---------------------
