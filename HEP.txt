@@ -1,10 +1,10 @@
-Node Js with express Framework
+My Note for Node Js with express Framework
 
 step1
 
 creat folder name
 
-mkdir hnin-ei-phyu
+mkdir (folder name)
 
 --------
 
@@ -17,7 +17,7 @@ code .
 
 step3
 
-npm intialize by adding
+Initialize npm by adding
 
 npm init
 
@@ -25,9 +25,51 @@ npm init
 
 step 4
 
-npm install (package name)
+npm install (package name(express))
+and fill all the facts
 
--------------
+
+then
+
+create index.js file and config this
+---
+const express = require("express")
+const app = express()
+
+const port = 3000
+
+app.listen(port,()=>{
+    console.log("app is runint on port 3000")
+})
+
+---
+
+And install npm express again
+
+npm install express
+
+------
+
+Now you can run 
+
+node index.js
+
+or if you define this on package.json
+
+"test": "echo \"Error: no test specified\" && exit 1",
+"dev" : "node index.js"
+
+run
+
+npm run dev
+-----
+
+If the you update the code rerun the 
+
+npm install  
+
+
+==========================
 
 
 Create server on GitHub
@@ -57,3 +99,8 @@ Run this on terminal
  git clone
 
 ---------------------
+
+
+Git hub token
+
+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
